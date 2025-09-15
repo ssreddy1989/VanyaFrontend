@@ -7,6 +7,7 @@ checkEnvVariables()
  */
 const nextConfig = {
   reactStrictMode: true,
+  output: "standalone", // ✅ Required for Vercel deployments
   logging: {
     fetches: {
       fullUrl: true,
