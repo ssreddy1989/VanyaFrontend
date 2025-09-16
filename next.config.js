@@ -1,6 +1,4 @@
-const checkEnvVariables = require("./check-env-variables")
-
-checkEnvVariables()
+// Environment variables are checked at runtime, not build time
 
 /**
  * @type {import('next').NextConfig}
